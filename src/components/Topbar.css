@@ -1,0 +1,47 @@
+.topbar {
+    width: 100%;
+    background-color: #fff;
+}
+.topbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapTopbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.item-button .buttonHeader {
+    height: 55px;
+}
+
+.item-button .login {
+  background-color: #fff;
+}
+
+.item-button .register {
+    background-color: #f26c50;
+    color: white;
+  }
+
+.cart {
+    color: #f26c50;
+}
+
+.MuiSvgIcon-root {
+    font-size: 35px !important;
+}
+
+
+.MuiInputBase-formControl {
+    border-radius: 30px !important;
+}
+
+.wrapButton {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
