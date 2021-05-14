@@ -11,22 +11,23 @@ function BannerSession() {
        const fetchCategoriesList =  async () => {
            try {
                 const response = await categoriesApi.getAll();
-                console.log(response);
+                console.log(response)
+                setCategories(response);
            } catch (error) {
                console.log(error)
            }
        }
        fetchCategoriesList();
     }, [])
-
     return (
         <div className="Banner-container">
             <div className="wrap-Banner">
                 <div className="categories">
                     <ul className="menu">
-                        <li>
-                            Test
-                        </li>
+                       {
+                           categoriesList.map(categoriesList =>
+                            <li>{categoriesList.cate_name}</li>
+                            )}
                     </ul>
                 </div>
                 <div className="banner">
@@ -68,5 +69,7 @@ function BannerSession() {
         </div>
     )
 }
+
+
 
 export default BannerSession

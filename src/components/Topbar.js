@@ -35,7 +35,11 @@ function Topbar() {
                         </div>
                         <div className="wrapButton">
                             <div className="item-button">
-                                <Button variant="contained" href="#" className="buttonHeader login">Đăng Nhập</Button>
+                                <Link to="/login" className="navbar-logo">
+                                    <Button variant="contained" href="/login" className="buttonHeader login">
+                                        Đăng Nhập
+                                    </Button>
+                                </Link>
                             </div>
                             <div className="item-button">
                                 <Button variant="contained" href="#" className="buttonHeader register">Đăng Ký</Button>

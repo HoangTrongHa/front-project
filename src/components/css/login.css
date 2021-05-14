@@ -1,0 +1,51 @@
+.container {
+    padding: 10%;
+}
+
+.wrapInput {
+    padding: 25px 0px;
+}
+
+.form-login {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    margin: 50px auto;
+    border-radius: 15px;
+}
+
+/* .MuiInputBase-formControl {
+    border-radius: 5px !important;
+} */
+
+
+.form-login .title-login {
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.wrapImg {
+    text-align: center;
+    width: 100%;
+}
+
+.img-login {
+    width: 25%;
+}
+
+.form-login .wrapInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login .wrapInput .MuiFormControl-root {
+    width: 50%;
+}
+
+.form-login .wrapInput .button {
+    background-color: #38aae6;
+    color: white;
+    width: 50%;
+    font-size: 18px;
+    padding: 10px 0;
+}

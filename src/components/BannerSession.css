@@ -30,6 +30,10 @@
     padding: 0 15px;
 }
 
+.Banner-container .wrap-Banner .categories .menu li {
+    padding: 10px 0;
+}
+
 .Banner-container .wrap-Banner .banner {
     width: 65%;
     min-height: 235px;
