@@ -18,3 +18,33 @@
 .BestSaler-container .itemBestSaler .MuiPaper-root {
     height: 370px;
 }
+.titleBestSaler {
+    font-size: 15px;
+    font-weight: bolder !important;
+}
+
+.wrapInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapInfo .price_sale {
+    
+}
+.wrapPriceAuth {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.wrapPriceAuth .priceAuth .priceAuth {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.MuiCardContent-root {
+    height: 85px ;
+}
