@@ -64,13 +64,14 @@ const content = {
             src: 'img/banner_3.jpg'
         },
     ],
+  
     best_saler: [
         {
             id:1,
             title:'Học đêm hát Guitar cùng Haketu',
             thumbnail:'img/best_saler/1.jpg',
             price: '700.000',
-            author: 'Hoàng Trọng Hà',
+            author: 'Hà Kế Tú',
             price_sale: 0
         },
         {
@@ -78,7 +79,7 @@ const content = {
             title:'Trình chiếu chuyên nghiệp với PowerPoint',
             thumbnail:'img/best_saler/2.jpg',
             price: '700.000',
-            author: 'Hoàng Trọng Hà',
+            author: 'Nguyễn Đức Thanh',
             price_sale: 0
         },
         {
@@ -86,7 +87,47 @@ const content = {
             title:'Làm Chủ thiết kế',
             thumbnail:'img/best_saler/3.jpg',
             price: '700.000',
-            author: 'Hoàng Trọng Hà',
+            author: 'Trịnh Duy Đông',
+            price_sale: '199.000'
+        },
+        {
+            id:4,
+            title:'Nhập môn chứng khoán',
+            thumbnail:'img/best_saler/4.jpg',
+            price: '700.000',
+            author: 'Đặng Trọng Khang ',
+            price_sale: '199.000'
+        },
+        {
+            id:5,
+            title:'Guitar đệm hát 30 ngày cùng Hiển Râu',
+            thumbnail:'img/best_saler/5.jpg',
+            price: '700.000',
+            author: 'Hiển Râu',
+            price_sale: '199.000'
+        },
+        {
+            id:6,
+            title:'Chuyên gia Thiết kế Kiến trúc cùng Render Revit',
+            thumbnail:'img/best_saler/6.jpg',
+            price: '700.000',
+            author: 'Phạm Sỹ Hùng',
+            price_sale: '199.000'
+        },
+        {
+            id:7,
+            title:'Autocad cơ bản và nâng cao',
+            thumbnail:'img/best_saler/7.jpg',
+            price: '700.000',
+            author: 'Cầm Hải Phương',
+            price_sale: '199.000'
+        },
+        {
+            id:8,
+            title:'Trở thành cao thủ pha chế tổng hợp sau 7 ngày',
+            thumbnail:'img/best_saler/8.jpg',
+            price: '700.000',
+            author: 'Nguyễn Tấn Trung',
             price_sale: '199.000'
         },
     ],
@@ -98,21 +139,83 @@ const content = {
        },
        {
         id:2,
-        name:' 2ádasds'
+        name:'P503, 20 Phan Đình Giót, P.2, Q. Tân Bình'
 
-    }
+        },
+        {
+            id:3,
+            name:'19001568'
+    
+        },
+        {
+            id:4,
+            name:'090 488 6095'
+ 
+        },
     ],
     about_unica:[
         {
             id:1,
             name:'Giới thiệu về Unica'
-        }
+        },
+        {
+            id:2,
+            name:'Câu hỏi thường gặp'
+        },
+        {
+            id:3,
+            name:'Điều khoản dịch vụ'
+        },
+        {
+            id:4,
+            name:'Hướng dẫn thanh toán'
+        },
+        {
+            id:5,
+            name:'Kích hoạt khóa học'
+        },
+        {
+            id:6,
+            name:'Góc chia sẻ'
+        },
+        {
+            id:7,
+            name:'Chính sách bảo mật'
+        },
+        {
+            id:8,
+            name:'Chính sách thẻ học'
+        },
     ],
     cooperation: [
         {
             id:1,
             name:'Đăng ký giảng viên'
-        }
+        },
+        {
+            id:2,
+            name:'Giải pháp e-learning'
+        },  
+        {
+            id:3,
+            name:'Đào tạo doanh nghiệp'
+        }, 
+        {
+            id:4,
+            name:'Thẻ học online'
+        },
+        {
+            id:5,
+            name:'Affiliate'
+        },
+        {
+            id:6,
+            name:'Agency'
+        },
+        {
+            id:7,
+            name:'Chúng tôi đang tuyển dụng'
+        },   
     ]
 }
 export default content

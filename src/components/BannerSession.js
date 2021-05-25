@@ -30,7 +30,7 @@ function BannerSession() {
                         content.categories.map((category,key) => {
                             return (
                                 <li>
-                                    <Link to="/" className="categoriesLink">
+                                    <Link to={`/product/${category.id}`} className="categoriesLink">
                                         {category.name}
                                     </Link>
                                 </li>

@@ -1,11 +1,10 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import {Container} from 'react-bootstrap';
 
-function Product() {
+export default function Product() {
     return (
         <div>
-            
+            <Container />
         </div>
     )
 }
-
-export default Product
